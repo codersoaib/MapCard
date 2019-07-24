@@ -1,0 +1,72 @@
+#container-content{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+.mapbox-container{
+    width:315px;
+    height:340px;
+    padding: 6px;
+    background-color: #FFFFFFFF;
+    border: 1px solid lightgray;
+}
+.container-color{
+    background-color: #F5F5F5F5;
+}
+#container-content .card-img-top{
+    height:135px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+}
+#container-content .card{
+    border: none;
+    border-radius: 0px;
+}
+#container-content .list-group{
+    padding-left: 8px;
+    padding-top: 2px;
+    position: relative;
+}
+#container-content .list-group-item{
+    padding: 0px;
+    border: none;
+}
+#container-content .icon-mapbox{
+    padding-right: 10px;
+    height: 18px;
+}
+#container-content .icon-map{
+    padding-right: 6px;
+    height: 18px;
+    width: 22px;
+}
+#container-content .bold-para{
+    margin-top: 0;
+    display: inline-flex;  
+    margin-bottom: 0px;
+}
+#container-content a:hover{
+    color: #007bff;
+}
+#container-content .icon-circle{
+    height: 15px;
+    width: 15px;
+    color: #7874C2;
+}
+#container-content span {
+    margin: 0px 5px;
+}
+#container-content .icon-rotate {
+    transform: rotate(180deg) translateX(5px);
+}
+#container-content .edit-position {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    left: 238px;
+}
+#container-content .icon-pencil {
+    font-size: 11px;
+    padding-right: 6px;
+    color: #007bff;
+}
